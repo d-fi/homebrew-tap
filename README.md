@@ -2,6 +2,9 @@
 
 This tap installs the prebuilt macOS binary for d-fi.
 
+The d-fi 2.2.0 macOS release asset is an x86_64 binary. On Apple Silicon Macs,
+it runs through Rosetta 2.
+
 ## Install
 
 ```sh
