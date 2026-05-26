@@ -1,5 +1,3 @@
 {
-  "d-fi": [
-    "bin/d-fi"
-  ]
+  "d-fi": "bin/d-fi"
 }
