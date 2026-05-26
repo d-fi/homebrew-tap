@@ -11,6 +11,6 @@ class DFi < Formula
   end
 
   test do
-    assert_match "Usage of d-fi", shell_output("#{bin}/d-fi --help")
+    assert_match "Usage of d-fi", shell_output("#{bin}/d-fi --help 2>&1")
   end
 end
