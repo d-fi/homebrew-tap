@@ -1,13 +1,14 @@
 class DFi < Formula
   desc "Deezer downloader CLI and local web UI"
   homepage "https://github.com/d-fi/GoFi"
-  url "https://github.com/d-fi/releases/releases/download/2.2.0/d-fi-macos.zip"
-  sha256 "27e0671c2f550c25b446865b8be60a769d5d3daea6cea822ea295135e4450342"
+  url "https://github.com/d-fi/GoFi/archive/refs/tags/v2.2.0.tar.gz"
+  sha256 "1834273913ce253695f7be2d25f3291dad76940cc2a683b5327ac9f303d83e28"
   license "MIT"
 
+  depends_on "go" => :build
+
   def install
-    chmod 0755, "d-fi"
-    bin.install "d-fi"
+    system "go", "build", *std_go_args(ldflags: "-s -w"), "./cmd/d-fi"
   end
 
   test do
