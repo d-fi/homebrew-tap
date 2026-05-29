@@ -1,8 +1,8 @@
 class DFi < Formula
   desc "Deezer downloader CLI and local web UI"
   homepage "https://github.com/d-fi/GoFi"
-  url "https://github.com/d-fi/GoFi/archive/refs/tags/v2.2.0.tar.gz"
-  sha256 "1834273913ce253695f7be2d25f3291dad76940cc2a683b5327ac9f303d83e28"
+  url "https://github.com/d-fi/GoFi/archive/refs/tags/v2.3.0.tar.gz"
+  sha256 "24986fa9afc18447d862d85d73fbfdcbe3c5957a595a5f08e5dba898cb8a641b"
   license "MIT"
 
   depends_on "go" => :build
