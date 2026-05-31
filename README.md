@@ -18,6 +18,6 @@ d-fi --help
 ## Formula
 
 - Formula: `Formula/d-fi.rb`
-- Version: `2.3.0`
+- Version: `2.3.2`
 - Source project: <https://github.com/d-fi/GoFi>
-- Source tag: <https://github.com/d-fi/GoFi/releases/tag/v2.3.0>
+- Source tag: <https://github.com/d-fi/GoFi/releases/tag/v2.3.2>
